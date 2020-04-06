@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MESTestSuite">
+	<test name="GetRequest">
+		<classes><class name="APITesting.com.org.api.GetRequest" /></classes>
+	</test>
+	
+	<!-- <test name="worklist">
+		<parameter name="launchMsg" value="Worklist" />
+		<parameter name="configData" value="src\\data\\DMI\\TCWorklistData.properties" />
+		<parameter name="configTest" value="src\\config\\TCWorklist.properties" />
+		<classes> <class name="com.sopra.mes.homepage.TCWorkList" /> </classes>
+	</test> -->
+	
+	
+</suite> 
