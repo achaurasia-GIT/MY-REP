@@ -13,8 +13,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
-	
+
+
 	<build>
 		<plugins>
 			<plugin>
@@ -27,28 +27,28 @@
 				</configuration>
 			</plugin>
 
-			<plugin> 
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
-			 <configuration>
+				<configuration>
 					<suiteXmlFiles>
-					
-						<suiteXmlFile>src/test/java/APITesting/com/org/api/utils/testng.xml</suiteXmlFile> 
+
+						<suiteXmlFile>src/test/java/APITesting/com/org/api/utils/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
-					
+
 			</plugin>
-			
-			
-			
+
+
+
 		</plugins>
-		
-    <defaultGoal>install</defaultGoal>
+
+		<defaultGoal>install</defaultGoal>
 
 
-		
-		
+
+
 	</build>
 
 	<dependencies>
@@ -59,7 +59,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		
+
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
