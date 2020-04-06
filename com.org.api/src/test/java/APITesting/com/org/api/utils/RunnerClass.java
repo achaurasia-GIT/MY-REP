@@ -26,7 +26,7 @@ public class RunnerClass {
 				
 				TestNG suit = new TestNG();
 				
-		        final Parser parser = new Parser("E:\\MY-REP\\com.org.api\\src\\test\\java\\APITesting\\com\\org\\api\\utils\\testng.xml");
+		        final Parser parser = new Parser("src\\test\\java\\APITesting\\com\\org\\api\\utils\\testng.xml");
 		        final List<XmlSuite> suites = parser.parseToList();
 		        System.out.println("set suites" );
 		        suit.setXmlSuites(suites);
