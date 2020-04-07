@@ -33,9 +33,10 @@
 				<version>2.19.1</version>
 				
 				<configuration>
-				
+				 <goals>
+                                    <goal>java</goal>
+                                </goals>
 					<suiteXmlFiles>
-
 						<suiteXmlFile>src/test/java/APITesting/com/org/api/utils/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
