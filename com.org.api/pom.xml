@@ -33,6 +33,7 @@
 				<version>2.19.1</version>
 				
 				<configuration>
+				
 					<suiteXmlFiles>
 
 						<suiteXmlFile>src/test/java/APITesting/com/org/api/utils/testng.xml</suiteXmlFile>
@@ -41,14 +42,14 @@
 
 			</plugin>
 
-				<plugin>
-  <groupId>org.codehaus.mojo</groupId>
-  <artifactId>exec-maven-plugin</artifactId>
-  <version>1.4.0</version>
-  <configuration>
-    <mainClass>APITesting.com.org.api.utils.RunnerClass</mainClass>
-  </configuration>
-</plugin>
+	<!-- <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.6.0</version>
+        <configuration>
+            <mainClass>APITesting.com.org.api.GetRequest</mainClass>
+        </configuration>
+</plugin> -->
 				
 
 		</plugins>
