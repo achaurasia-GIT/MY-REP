@@ -80,10 +80,10 @@ public class JsonServerRequest {
 		JSONObject paytmParams = new JSONObject();
 
 		/* Enter user's 10 digit mobile number */
-		paytmParams.put("phone", "9655882845");
+		paytmParams.put("phone", "1234567890");
 
 		/* Enter your client id here */
-		paytmParams.put("clientId", "_yKSVHEbfVvCIUE7");
+		paytmParams.put("clientId", "qweqweqwe");
 
 		/* enter resource scope */
 		paytmParams.put("scope", "wallet");
